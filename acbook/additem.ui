@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>additem</class>
+ <widget class="QWidget" name="additem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>504</width>
+    <height>245</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="confirm_btn">
+   <property name="geometry">
+    <rect>
+     <x>199</x>
+     <y>190</y>
+     <width>92</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#confirm_btn {
+    width: 85px;
+    height: 30px;
+	color: #fff;
+    border: 0px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    background-color: #3bafda;
+
+}
+
+QPushButton#confirm_btn:hover {
+    background-color: #4fc1e9;
+}
+
+QPushButton#confirm_btn:pressed {
+    background: qradialgradient(cx:0.5,
+    cy: 0.5,
+    fx: 0.5,
+    fy: 0.5,
+    radius: 1.5,
+    stop: 0.2 #4fc1e9,
+    stop: 0.8 #3bafda);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter_3">
+   <property name="geometry">
+    <rect>
+     <x>59</x>
+     <y>148</y>
+     <width>371</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="text">
+     <string>备   注:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="mark"/>
+  </widget>
+  <widget class="QSplitter" name="splitter_2">
+   <property name="geometry">
+    <rect>
+     <x>59</x>
+     <y>95</y>
+     <width>371</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="text">
+     <string>选择类型:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="type"/>
+   <widget class="QLabel" name="label_2">
+    <property name="text">
+     <string>金额:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="value"/>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>371</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="text">
+     <string>日期:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="year_edit"/>
+   <widget class="QLineEdit" name="mon_edit"/>
+   <widget class="QLineEdit" name="day_edit"/>
+   <widget class="QDateEdit" name="date_select"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

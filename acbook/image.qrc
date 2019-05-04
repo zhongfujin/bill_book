@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/background.jpg</file>
+        <file>image/add.png</file>
+        <file>image/jian.png</file>
+        <file>image/logout.png</file>
+        <file>image/logout_red.png</file>
+        <file>image/checkbox_checked.png</file>
+        <file>image/scr_left.png</file>
+        <file>image/scr_right.png</file>
+        <file>image/password.png</file>
+        <file>image/username.png</file>
+        <file>image/calen.png</file>
+        <file>image/arrow-left.png</file>
+        <file>image/arrow-right.png</file>
+    </qresource>
+</RCC>
